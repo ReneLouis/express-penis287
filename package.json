@@ -1,0 +1,14 @@
+{
+  "name": "photography-site",
+  "version": "1.0.0",
+  "description": "website to shocase photographs by René Louis",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "René Louis",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
