@@ -20,6 +20,6 @@ app.get("/", (req, res) => {
     Need to use a midleware to server static file, see above "static files middleware"
     */
 
-app.listen(process.env.port || port, () => {
+app.listen(process.env.PORT || port, () => {
   console.log(`Express server is now listening.`);
 });
